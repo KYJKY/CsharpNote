@@ -5,6 +5,7 @@
     <TargetFramework>net6.0-maccatalyst</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <StartupObject>CsharpNote.Ex004_Variable</StartupObject>
   </PropertyGroup>
 
 </Project>

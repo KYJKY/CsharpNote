@@ -44,8 +44,10 @@ namespace CsharpNote
                 ("출력 내용");
 
             // 05
-            // ???
-            Console.WriteLine($"{DateTime.Now.Date}");
+            // 문자열 보간 > JavaScript 템플릿 문자열 
+            string name = "김연중";
+            string chat = "큰 일을 하기 위해 작은 일 부터";
+            Console.WriteLine($"[{DateTime.Now.Date}], {name}: {chat}");
 
 
             // 06 PlaceHolder 자리표시자 
